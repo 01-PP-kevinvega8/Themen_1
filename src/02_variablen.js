@@ -43,12 +43,12 @@
 
 /* Variablen vs. Konstanten in JS */
 
-let test; // Deklaration
-test = "Hi"; // Wertzuweisung
-test = "Hello"; // Wertzuweisung
-console.log("Inhalt: " + test); // Ausgabe
+// let test; // Deklaration
+// test = "Hi"; // Wertzuweisung
+// test = "Hello"; // Wertzuweisung
+// console.log("Inhalt: " + test); // Ausgabe
 
-const test2 = "Hi!"; // Deklaration + Wertzuweisung 
-console.log("Inhalt: " + test2); // Ausgabe
+// const test2 = "Hi!"; // Deklaration + Wertzuweisung 
+// console.log("Inhalt: " + test2); // Ausgabe
 
 
