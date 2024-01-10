@@ -7,8 +7,10 @@ const birthYearJohn = 2000;
 const birthYearMark = 1990;
 
 // Berechnung Alter 
-ageJohn = 2024 - birthYearJohn;
-ageMark = 2024 - birthYearMark;
+let date = new Date(); // Systemfunktion Datum 
+let year = date.getFullYear();
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
 
 // Ausgabe
 console.log("ageJohn: " + ageJohn);
